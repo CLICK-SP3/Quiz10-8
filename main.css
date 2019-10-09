@@ -1,0 +1,64 @@
+@charset "UTF-8";
+*{box-sizing:border-box;
+	}
+
+#container	{
+			width:1020px;
+			height:620px;
+			margin:0 auto;	
+			}
+#bigbox		{
+			width:530px;
+			height:400px;
+			background-color:mediumseagreen;
+			margin-left:20px;
+			float: left;
+			}
+
+#smallbox	{
+			background-color:khaki;
+			margin: 10px;
+			width:510px;
+			height:225px;
+			}
+			
+h1			{
+			font-family: 'Berkshire Swash', cursive;
+			text-align:center;
+			color:white;
+			text-shadow: 3px 3px #600;
+			}
+			
+			
+header		{
+			width:100%;
+			height:150px;
+			background-image:url(images/Untitled-1.png);
+			border-radius:36px;
+			margin-bottom: 15px;
+			}
+			
+section		{
+			background-color:mediumaquamarine;
+			width: 450px;
+			height: 400px;
+			padding:10px;
+			float:left;
+			margin-right:20px;
+			margin-bottom:15px;
+			}
+			
+body        {
+			background-image:url(images/stripe.png);
+			image-repeat:repeat;
+			width: 100%;
+			height:100%;
+			}
+			
+footer		{
+			width:100%;
+			background-color:seagreen;
+			margin-top:20px;
+			height:70px;
+			clear:both;
+			}
